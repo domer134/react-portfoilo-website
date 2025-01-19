@@ -5,7 +5,4 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
 	plugins: [react()],
 	base: '/harris-johnsen-2/',
-	build: {
-		outDir: 'dist', // Папка для збірки
-	},
 })
